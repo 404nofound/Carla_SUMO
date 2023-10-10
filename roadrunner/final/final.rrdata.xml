@@ -26,6 +26,30 @@
         <Junction>
             <ID>{5d42afad-f642-4ab2-821a-60a3a78b89e2}</ID>
         </Junction>
+        <Junction>
+            <ID>{c39a54a6-3b79-478a-ae14-375cb12d74dc}</ID>
+        </Junction>
+        <Junction>
+            <ID>{88b3f01d-3ee9-49d4-85ef-381610b367fe}</ID>
+        </Junction>
+        <Junction>
+            <ID>{d98a2e3a-9e94-460e-98e6-57e061183c8b}</ID>
+        </Junction>
+        <Junction>
+            <ID>{dbefdabf-8f38-42c0-a5e5-e3d6b686e764}</ID>
+        </Junction>
+        <Junction>
+            <ID>{4ac455d2-d2e0-4445-bd01-d155a9f325bc}</ID>
+        </Junction>
+        <Junction>
+            <ID>{178cca99-0ab8-464a-afb7-f42e1ce46c82}</ID>
+        </Junction>
+        <Junction>
+            <ID>{642af8e8-5c76-4e58-aae1-ac806afec349}</ID>
+        </Junction>
+        <Junction>
+            <ID>{bb99cac0-10c7-45ee-86d7-078d749e8bcf}</ID>
+        </Junction>
     </Signalization>
     <MaterialList>
         <Material>
@@ -48,6 +72,27 @@
             <ShadowCaster>true</ShadowCaster>
             <IsDecal>false</IsDecal>
             <SegmentationType>Road</SegmentationType>
+        </Material>
+        <Material>
+            <Name>Concrete1_Bridge</Name>
+            <DiffuseMap>Concrete1_Diff.png</DiffuseMap>
+            <NormalMap>Concrete1_Norm.png</NormalMap>
+            <SpecularMap>Concrete1_Spec.png</SpecularMap>
+            <AmbientColor>0.200000,0.200000,0.200000</AmbientColor>
+            <DiffuseColor>1.000000,1.000000,1.000000</DiffuseColor>
+            <SpecularColor>0.039216,0.039216,0.039216</SpecularColor>
+            <Roughness>0.200000</Roughness>
+            <SpecularFactor>0.010000</SpecularFactor>
+            <TransparencyFactor>0.000000</TransparencyFactor>
+            <Emission>0.000000</Emission>
+            <EmissionColor>1.000000,1.000000,1.000000</EmissionColor>
+            <TextureScaleU>0.5</TextureScaleU>
+            <TextureScaleV>0.5</TextureScaleV>
+            <TwoSided>false</TwoSided>
+            <DrawQueue>0</DrawQueue>
+            <ShadowCaster>true</ShadowCaster>
+            <IsDecal>false</IsDecal>
+            <SegmentationType>Bridge</SegmentationType>
         </Material>
         <Material>
             <Name>Grass1_Ground</Name>
