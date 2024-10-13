@@ -3,9 +3,11 @@
 
 Manual control or autonomous driving takeover (**waiting to upload**) experiment with CARLA-SUMO co-simulation
 
+<img align="center" src="https://github.com/404nofound/Carla_SUMO/blob/main/media/exp_env.png" alt="" width="740" height="500" style="display: inline; float: right"/>
+
 ## Demo
 
-
+**Still Updating**
 
 ## File Structure
 
