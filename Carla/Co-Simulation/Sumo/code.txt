@@ -1,0 +1,12 @@
+生成sumo路网文件
+python netconvert_carla.py Town01.xodr
+
+生成sumo出行route文件
+python randomTrips.py -n net.net.xml -r net.rou.xml
+
+向sumo出行route文件里写入车辆类型
+cd D:\Carla\Co-Simulation\Sumo\util
+python sequential_types.py -r net.rou.xml --random
+
+运行 sumo仿真
+python run_synchronization.py examples/exp1.sumocfg --sumo-gui

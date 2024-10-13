@@ -1,0 +1,4 @@
+D:
+cd D:\Carla\Co-Simulation\Sumo\
+python run_synchronization_part1.py examples/exp1.sumocfg --sumo-gui
+pause

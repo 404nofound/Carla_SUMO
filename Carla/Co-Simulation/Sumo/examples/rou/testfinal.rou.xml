@@ -1,0 +1,246 @@
+
+<routes>
+    <vType id ="mybus" vClass ="bus" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="18" callFollowMode="IDM" actionStepLength="1" tau="1.4"  guiShape="evehicle" laneChangeModel= "SL2015"/>  
+    <vType id ="mycar" vClass ="passenger" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="18" callFollowMode="IDM" actionStepLength="1" tau="1.4"  laneChangeModel= "SL2015"/>
+	<route id="route0" color="1,1,0" edges="-0"/>
+
+    
+
+
+    <vehicle id="car1_straight1" type="mycar" depart= "1" departLane= "1" departPos="2" departSpeed="13.5" arrivalSpeed="13.5" arrivalLane = "1"  arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+
+    <vehicle id="car1_straight2" type="mycar" depart= "3" departLane= "2" departPos="0" departSpeed="16.25" arrivalSpeed="17" arrivalLane = "2" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+
+    <vehicle id="car1_straight3" type="mycar" depart= "4" departLane= "2" departPos="0" departSpeed="16.75" arrivalSpeed="16" arrivalLane = "2" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+
+    <vehicle id="car1_turn1" type="mycar" depart= "5" departLane= "2" departPos="0" departSpeed="13.75" arrivalSpeed="12" arrivalLane = "1" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+
+    <vehicle id="car1_straight4" type="mycar" depart= "7" departLane= "2" departPos="0" departSpeed="15.6" arrivalSpeed="17" arrivalLane = "2" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+
+    <vehicle id="car1_turn2" type="mycar" depart= "7" departLane= "1" departPos="0" departSpeed="13.49" arrivalSpeed="9" arrivalLane = "2" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+
+    <vehicle id="car1_turn3" type="mycar" depart= "11" departLane= "1" departPos="0" departSpeed="14.75" arrivalSpeed="16.5" arrivalLane = "2" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+
+    <vehicle id="car1_straight5" type="mycar" depart= "13" departLane= "2" departPos="0" departSpeed="15" arrivalSpeed="14.5" arrivalLane = "2" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+
+    <vehicle id="car1_turn4" type="mycar" depart= "14" departLane= "1" departPos="0" departSpeed="13.21" arrivalSpeed="13.75" arrivalLane = "0" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+
+    <vehicle id="car1_turn5" type="mycar" depart= "14" departLane= "1" departPos="0" departSpeed="14.75" arrivalSpeed="12.25" arrivalLane = "0" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+
+    <vehicle id="car1_turn6" type="mycar" depart= "16" departLane= "0" departPos="0" departSpeed="18" arrivalSpeed="12.25" arrivalLane = "1" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+
+    <vehicle id="car1_turn7" type="mycar" depart= "16" departLane= "2"  arrivalLane = "0" departPos="0" departSpeed="14.75" arrivalSpeed="14.5"  arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+
+    <vehicle id="car1_straight6" type="mycar" depart= "17" departLane= "1" departPos="0" departSpeed="14.5" arrivalSpeed="15.25" arrivalLane = "2" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+	
+    <vehicle id="car1_straight7" type="mycar" depart= "17" departLane= "2" departPos="0" departSpeed="15" arrivalSpeed="11.97" arrivalLane = "2" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+	
+	 <vehicle id="car1_turn8" type="mycar" depart= "17" departLane= "2"  arrivalLane = "1" departPos="0" departSpeed="13.97" arrivalSpeed="11.5"  arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+	
+	<vehicle id="car1_straight8" type="mycar" depart= "18" departLane= "2" departPos="0" departSpeed="14" arrivalSpeed="16" arrivalLane = "2" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>
+
+	 <vehicle id="car1_turn9" type="mycar" depart= "20" departLane= "1"  arrivalLane = "0" departPos="0" departSpeed="15.75" arrivalSpeed="12.5"  arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>	
+	
+	<vehicle id="car1_turn10" type="mycar" depart= "20" departLane= "2" departPos="0" departSpeed="14.5" arrivalSpeed="13.5" arrivalLane = "0" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>	
+	
+	<vehicle id="car1_turn11" type="mycar" depart= "20" departLane= "0" departPos="0" departSpeed="15.09" arrivalSpeed="13.25" arrivalLane = "1" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>	
+		
+	<vehicle id="car1_turn12" type="mycar" depart= "20" departLane= "1" departPos="0" departSpeed="11.62" arrivalSpeed="12.25" arrivalLane = "1" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>	
+	
+	<vehicle id="car1_turn13" type="mycar" depart= "22" departLane= "1" departPos="0" departSpeed="15" arrivalSpeed="14" arrivalLane = "0" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+
+	<vehicle id="car1_turn14" type="mycar" depart= "23" departLane= "2" departPos="0" departSpeed="15" arrivalSpeed="16.25" arrivalLane = "2" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+	
+	<vehicle id="car1_straight9" type="mycar" depart= "23" departLane= "2" arrivalLane = "2" departPos="0" departSpeed="15.5" arrivalSpeed="11.25" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+	
+	<vehicle id="car1_straight10" type="mycar" depart= "23" departLane= "0" arrivalLane = "0" departPos="0" departSpeed="16.5" arrivalSpeed="12" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+	
+	<vehicle id="car1_turn15" type="mycar" depart= "27" departLane= "2" arrivalLane = "1" departPos="0" departSpeed="15.16" arrivalSpeed="13.5" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+	
+	<vehicle id="car1_straight11" type="mycar" depart= "28" departLane= "2" arrivalLane = "2" departPos="0" departSpeed="16" arrivalSpeed="15.5" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>			
+	
+	<vehicle id="car1_turn16" type="mycar" depart= "29" departLane= "1" arrivalLane = "2" departPos="0" departSpeed="10.5" arrivalSpeed="9.75" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+					
+	<vehicle id="car1_straight12" type="mycar" depart= "30" departLane= "1" arrivalLane = "1" departPos="0" departSpeed="10.75" arrivalSpeed="11.58" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+						
+	<vehicle id="car1_straight13" type="mycar" depart= "29" departLane= "0" arrivalLane = "0" departPos="0" departSpeed="16.75" arrivalSpeed="14" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+						
+	<vehicle id="car1_turn17" type="mycar" depart= "31" departLane= "2" arrivalLane = "0" departPos="0" departSpeed="14.5" arrivalSpeed="14.25" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>						
+		
+	<vehicle id="car1_turn18" type="mycar" depart= "32" departLane= "0" arrivalLane = "2" departPos="0" departSpeed="14.5" arrivalSpeed="11.25" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+						
+	<vehicle id="car1_straight14" type="mycar" depart= "33" departLane= "0" arrivalLane = "0" departPos="0" departSpeed="16.05" arrivalSpeed="14.25" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>			
+	
+	<vehicle id="car1_straight15" type="mycar" depart= "35" departLane= "0" arrivalLane = "0" departPos="0" departSpeed="12.25" arrivalSpeed="13.5" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>	
+	
+	<vehicle id="car1_straight16" type="mycar" depart= "36" departLane= "2" arrivalLane = "2" departPos="0" departSpeed="16" arrivalSpeed="15.5" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>	
+	
+	<vehicle id="car1_turn19" type="mycar" depart= "38" departLane= "0" arrivalLane = "2" departPos="0" departSpeed="16.25" arrivalSpeed="10.75" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+	
+	<vehicle id="car1_straight17" type="mycar" depart= "39" departLane= "0" arrivalLane = "0" departPos="0" departSpeed="15.25" arrivalSpeed="13.75" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+	
+	<vehicle id="car1_straight18" type="mycar" depart= "40" departLane= "2" arrivalLane = "2" departPos="0" departSpeed="11.5" arrivalSpeed="14" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+
+	<vehicle id="car1_turn20" type="mycar" depart= "44" departLane= "1" arrivalLane = "2" departPos="0" departSpeed="15.18" arrivalSpeed="15.75" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>			
+	
+	<vehicle id="car1_turn21" type="mycar" depart= "44" departLane= "0" arrivalLane = "2" departPos="0" departSpeed="13.25"  arrivalSpeed="11.75" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>			
+	
+	<vehicle id="car1_straight19" type="mycar" depart= "48" departLane= "0" arrivalLane = "0" departPos="0" departSpeed="13" arrivalSpeed="11.75" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>			
+	
+	<vehicle id="car1_turn22" type="mycar" depart= "48" departLane= "0" arrivalLane = "2" departPos="0" departSpeed="14.25"  arrivalSpeed="16.75" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>			
+	
+	<vehicle id="car1_turn23" type="mycar" depart= "48" departLane= "2" arrivalLane = "1" departPos="0" departSpeed="15.25"  arrivalSpeed="16.75" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>			
+	
+	<vehicle id="car1_straight20" type="mycar" depart= "49" departLane= "2" arrivalLane = "2" departPos="0" departSpeed="17" arrivalSpeed="11.75" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>			
+		
+	<vehicle id="car1_turn24" type="mycar" depart= "49" departLane= "1" arrivalLane = "2" departPos="0" departSpeed="14.62" arrivalSpeed="16.25" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>			
+	
+	<vehicle id="car1_straight21" type="mycar" depart= "50" departLane= "0" arrivalLane = "0" departPos="0" departSpeed="15.75" arrivalSpeed="12.75" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>			
+		
+	<vehicle id="car1_straight22" type="mycar" depart= "51" departLane= "0" arrivalLane = "0" departPos="0" departSpeed="12.5" arrivalSpeed="12.75" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>			
+	
+	<vehicle id="car1_straight23" type="mycar" depart= "52" departLane= "0" arrivalLane = "0" departPos="0" departSpeed="15.75" arrivalSpeed="12" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>			
+		
+	<vehicle id="car1_straight24" type="mycar" depart= "55" departLane= "0" arrivalLane = "0" departPos="0" departSpeed="13.16" arrivalSpeed="12.75" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>			
+	
+	<vehicle id="car1_straight25" type="mycar" depart= "56" departLane= "0" arrivalLane = "0" departPos="0" departSpeed="11.05" arrivalSpeed="13" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>			
+	
+	<vehicle id="car1_turn25" type="mycar" depart= "58" departLane= "0" arrivalLane = "2" departPos="0" departSpeed="13" arrivalSpeed="13" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+	
+	<vehicle id="car1_turn26" type="mycar" depart= "58" departLane= "1" arrivalLane = "2" departPos="0" departSpeed="16" arrivalSpeed="14.25" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+		
+	<vehicle id="car1_straight26" type="mycar" depart= "60" departLane= "0" arrivalLane = "0" departPos="0" departSpeed="13.25" arrivalSpeed="13" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>	
+		
+	<vehicle id="car1_straight27" type="mycar" depart= "66" departLane= "0" arrivalLane = "0" departPos="0" departSpeed="13" arrivalSpeed="11.5" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>	
+	
+	<vehicle id="car1_turn27" type="mycar" depart= "67" departLane= "1" arrivalLane = "2" departPos="0" departSpeed="18" arrivalSpeed="17" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+		
+	<vehicle id="car1_straight28" type="mycar" depart= "68" departLane= "2" arrivalLane = "2" departPos="0" departSpeed="18" arrivalSpeed="17.5" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>	
+
+	<vehicle id="car1_turn28" type="mycar" depart= "71" departLane= "1" arrivalLane = "2" departPos="0" departSpeed="18" arrivalSpeed="16.5" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+	
+	<vehicle id="car1_straight29" type="mycar" depart= "74" departLane= "2" arrivalLane = "2" departPos="0" departSpeed="18" arrivalSpeed="17.5" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>	
+
+	<vehicle id="car1_turn29" type="mycar" depart= "74" departLane= "0" arrivalLane = "1" departPos="0" departSpeed="18" arrivalSpeed="16.5" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+	
+	<vehicle id="car1_turn30" type="mycar" depart= "75" departLane= "0" arrivalLane = "2" departPos="0" departSpeed="18" arrivalSpeed="17.25" arrivalPos="800" color="255,0,0" >
+        <route edges ="-0" /> 
+    </vehicle>		
+
+</routes>

@@ -1,0 +1,4 @@
+D:
+cd D:\Carla\PythonAPI\examples\
+python lab_manual_control_part1.py
+pause

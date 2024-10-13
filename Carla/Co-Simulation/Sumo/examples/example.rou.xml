@@ -1,0 +1,18 @@
+<routes>
+	<vType id="type2" vClass="passenger" accel="0.5" decel="3.5" sigma="0.6" length="5.6"  minSpeed="33" maxSpeed="70" minGap="5"  lcStrategic="0.5" lcCooperative="0.1" lcOvertakeDeltaSpeedFactor="0.2" lcSpeedGainRight="0.5" lcOvertakeRight="0.5" carFollowModel="IDM"/>
+    <vType id="type1" vClass="evehicle" accel="0.8" decel="4.5" sigma="0.6" length="4.63" minSpeed="33" maxSpeed="80" speedFactor="norm(55,8)" minGap="5"  lcStrategic="0.5" lcCooperative="0.2" lcOvertakeDeltaSpeedFactor="0.1" lcSpeedGainRight="0.5" lcOvertakeRight="0.2"/>   
+	<route id="route0" color="1,1,0" edges="-0"/>
+	
+	<flow id="cars" type="type2" begin="0" end="180" number="81" departLane="best" color="255,0,0">
+		<route edges="-0"/>
+    </flow>
+	
+	<vehicle id="car01" type="type1" route="route0" begin="10.00" depart= "60" departLane= "1" color="0,255,255" >
+	    <param key="has.ssm.device" value="true"/>
+        <param key="device.ssm.measures" value="TTC DRAC PET"/>
+        <param key="device.ssm.file" value="ssm_v0.xml" />
+        <param key="device.ssm.write-positions" value="true" />
+        <param key="device.ssm.write-lane-positions" value="true" />
+    </vehicle>
+
+</routes>
